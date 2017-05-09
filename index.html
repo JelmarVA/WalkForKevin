@@ -1,32 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <div class="MenuBar shadow">
-            <div class="listHolder">
-                <p> Kevins walk </p>
-                <ul>
-                    <li>  <a href="#"> Volg ons! </a> </li>
-                    <li>  <a href ="#"> Steun ons! </a></li>
-                </ul>
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="MenuBar shadow">
+        <div class="listHolder">
+            <a href="#zusjes" id="title"> Kevins walk </a>
+            <ul>
+                <li> <a href="#makeawish"> Make a wish?</a> </li>
+                <li> <a href="#volg"> Volg ons! </a> </li>
+                <li> <a href="#"> Steun ons! </a> </li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <section class="card shadow" id="zusjes">
+            <div id="imgHolder">
+                <img src="afbeeldingen/zusjes.jpg" alt="FOTO ZUSJES" />
             </div>
-        </div>
-        <div class="content">
-            <section class="card shadow">
-                <div id="imgHolder">
-                    <img src="afbeeldingen/zusjes.jpg" alt="FOTO ZUSJES"/>
-                </div>
-                <div id="headerHolder">
-                    <h1>De Zusjes </h1>
-                    <h2>Bornem</h2>
-                    <h3>11 en 12 augustus 2017</h3>
-                </div>
-            </section>
-        </div>
-    </body>
+            <div id="headerHolder">
+                <h1>De Zusjes </h1>
+                <h2>Bornem</h2>
+                <h3>11 en 12 augustus 2017</h3>
+            </div>
+        </section>
+
+        <section class="card shadow" id="makeawish">
+            <div class="textHolder">
+                <h1> Make a wish? </h1>
+                <p> Make-A-Wish® vervult de hartenwens van kinderen die vechten tegen een levensbedreigende ziekte om hoop, sterkte en vreugde te brengen. </p>
+                <p> Voor meer uitleg kan je op de afbeelding klikken. </p>
+            </div>
+            <div class="imgHolder">
+                <a href="http://www.makeawish.be/over-ons"> <img src="afbeeldingen/makeAWish.gif" alt="Make a wish" /></a>
+            </div>
+        </section>
+
+        <section class="card shadow" id="volg">
+            <div class="titleHolder">
+                <h1>Volg ons!</h1>
+            </div>
+            <div class="uitlegHolder">
+                <p>Je kan de wandelaars volgen door op het hamburgermenu te klikken en bij wandelaars Christel of Ingrid Jacobs in te typen.</p>
+            </div>
+            <div class="iframeHolder">
+                <iframe src="https://webapp.dodentocht.be/"></iframe>
+            </div>
+        </section>
+    </div>
+</body>
+
 </html>
