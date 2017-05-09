@@ -41,6 +41,13 @@ body {
     margin-bottom: 10px;
 }
 
+.anker {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}
+
 
 /*VOLG ONS*/
 
