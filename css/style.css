@@ -6,6 +6,12 @@ body {
     background-position: center;
     background-attachment: fixed;
     color: rgba(0, 0, 0, 0.87);
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    margin: 0;
+    padding: 0;
 }
 
 .content {
@@ -21,6 +27,33 @@ body {
 
 .shadow {
     box-shadow: 1px 1px 10px 0px #000;
+}
+
+
+/* SPONSORS */
+
+.sponsors {
+    height: 150px;
+    width: 100%;
+    background: #2196F3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsors p {
+    color: white;
+    margin-right: 20px;
+}
+
+.sponsors a {
+    height: 100%;
+}
+
+.sponsors a img {
+    height: 100%;
+    width: auto;
 }
 
 
@@ -126,20 +159,31 @@ ul {
     float: right;
 }
 
+li:last-child a {
+    background: #FFEB3B;
+    color: rgba(0, 0, 0, 0.87);
+    border-radius: 2px;
+}
+
+li:last-child a:hover {
+    background: #FF5722;
+}
+
 li {
     float: left;
 }
 
 li a {
     display: block;
-    color: white;
     text-align: center;
     padding: 16px;
+    color: white;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #039BE5;
+    background-color: #1565C0;
+    color: white;
 }
 
 .menuHolder {
