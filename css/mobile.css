@@ -17,6 +17,10 @@ section {
 .content {
     width: 100%;
     display: flex;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
     margin-top: 70px;
     flex-direction: column;
     justify-content: flex-start;
@@ -41,6 +45,10 @@ nav{
     top: 0;
     z-index: 100;
     display: flex;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
     justify-content: center;
 }
 
@@ -49,6 +57,10 @@ nav{
     width: 100%;
     height: 50px;
     display: flex;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -99,6 +111,10 @@ nav .material-icons {
     width: 50%;
     text-align: center;
     display: flex;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -122,6 +138,10 @@ nav .material-icons {
     max-width: 960px;
     border-radius: 2px;
     display: flex;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
     flex-direction: column;
     justify-content: center;
     flex-flow: wrap;
@@ -142,18 +162,30 @@ nav .material-icons {
 #imgHolder {
     width: 100%;
     display: flex;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
     justify-content: center;
 }
 
 #kevHolder {
     width: 100%;
     display: flex;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
     justify-content: center;
 }
 
 #headerHolder {
     width: 100%;
     display: flex;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
     flex-direction: column;
     justify-content: center;
 }
@@ -182,6 +214,10 @@ h3 {
     height: 100%;
     width: 100%;
     display: flex;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
     flex-direction: column;
     justify-content: space-between;
 }
@@ -228,6 +264,10 @@ iframe {
     width: 100%;
     background: #2196F3;
     display: flex;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -274,8 +314,16 @@ iframe {
     width: 100%;
     max-width: 960px;
     display: flex;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
     flex-direction: row;
     justify-content: center;
     align-items: center;
     align-content: center;
+}
+
+span {
+    font-weight: bold;
 }
