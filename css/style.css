@@ -1,56 +1,17 @@
 
+@media screen and (min-width: 769px) {
 
+/*Menu*/
 
+.nav .material-icons {
+    display: none;
+}
 
-
-/* SPONSORS */
-
-
-/* CARD */
-
-
-
-
-
-
-
-/* MENU BAR */
-
-.MenuBar {
-    top: 0;
-    position: fixed;
-    height: 50px;
-    width: 100%;
-    background: #2196F3;
+.nav__right {
+    width: 50%;
+    transform: none;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    z-index: 3;
-}
-
-.listHolder {
-    width: 960px;
-}
-
-#title {
-    margin: 0;
-    padding: 1.5px;
-    float: left;
-    color: white;
-    font-size: 40px;
-    text-decoration: none;
-}
-
-
-
-li:last-child a {
-    background: #FFEB3B;
-    color: rgba(0, 0, 0, 0.87);
-    border-radius: 2px;
-}
-
-li:last-child a:hover {
-    background: #FF5722;
+    justify-content: flex-end;
 }
 
 li {
@@ -70,10 +31,47 @@ li a:hover {
     color: white;
 }
 
-.menuHolder {
-    width: 960px;
-    display: flex;
-    justify-content: flex-end;
+/*Zusjes*/
+
+#imgHolder {
+    width: 50%;
+}
+
+#headerHolder {
+    width: 50%;
+}
+
+/*Make a wisht */
+
+.textHolder {
+    width: 50%;
+}
+
+.imgHolder {
+    width: 50%;
+    margin: 0px;
+}
+
+.imgHolder img {
+    margin: 0px 10px;
+}
+
+.textHolder p,
+.textHolder h1 {
+    margin: 0px 10px 0px 10px;
+    width: 100%;
 }
 
 
+
+}
+
+@media screen and (min-width: 961px){
+    .card {
+      overflow: hidden;
+    }
+
+    img, .iframeHolder, .card {
+        border-radius: 10px;
+    }
+}

@@ -9,6 +9,7 @@ class Menu {
 
         this.toggle = this.toggle.bind(this);
         this.addEventListeners();
+        console.log(window.innerWidth);
     }
 
     addEventListeners() {
@@ -22,13 +23,14 @@ class Menu {
 
     toggle() {
         return function() {
-           // console.log("toggled");
-            if (this.opened) {
-                this.moveRight();
-            } else {
-                this.moveLeft();
-            }
-            this.opened = !this.opened;
+           if (window.innerWidth < 769){
+                if (this.opened) {
+                    this.moveRight();
+                } else {
+                    this.moveLeft();
+                }
+                this.opened = !this.opened;
+         }
         }.bind(this);
     }
 
