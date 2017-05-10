@@ -41,6 +41,21 @@ li a:hover {
     width: 50%;
 }
 
+#kevHolder {
+    width: 50%;
+    order: 4;
+}
+
+.zusTextHolder {
+    padding: 0;
+    width: 50%;
+    order: 3;
+}
+
+.zusTextHolder p {
+    padding: 0px 10px;
+}
+
 /*Make a wisht */
 
 .textHolder {
